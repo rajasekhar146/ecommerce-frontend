@@ -15,7 +15,7 @@ import get from 'lodash.get'
 const CategoryPage = props => {
     const [categoryList, setCategoryList] = useState([])
     const [categoryName, setCategoryName] = useState('')
-    const [parentCategoryId, setparentCategoryId] = useState('')
+    const [parentCategoryId, setParentCategoryId] = useState('')
     const [categoryImage, setCategoryImage] = useState('')
 
     const [show, setShow] = useState(false);
